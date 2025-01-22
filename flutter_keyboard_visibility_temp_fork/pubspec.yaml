@@ -1,8 +1,8 @@
-name: flutter_keyboard_visibility_temp_fork
+name: flutter_keyboard_visibility_temp_fork_allenlinli
 description: Temporary fork of flutter_keyboard_visibility plugin to address some issues
-version: 0.1.5
-homepage: https://github.com/EchoEllet/flutter_keyboard_visibility_temp_fork
-repository: https://github.com/EchoEllet/flutter_keyboard_visibility_temp_fork
+version: 0.1.6
+homepage: https://github.com/allenlinli/flutter_keyboard_visibility_temp_fork
+repository: https://github.com/allenlinli/flutter_keyboard_visibility_temp_fork
 
 environment:
   sdk: '>=2.12.0 <4.0.0'
