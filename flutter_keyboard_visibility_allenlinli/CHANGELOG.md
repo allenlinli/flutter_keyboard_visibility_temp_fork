@@ -1,4 +1,4 @@
-## [2.1.0] - June 9, 2025
+## [0.2.0] - June 9, 2025
 
 - Fixes iOS plugin class naming mismatch that caused build failures.
 - Renamed Swift class from `FlutterKeyboardVisibilityTempForkPlugin` to `FlutterKeyboardVisibilityAllenlinliPlugin` to match pubspec.yaml configuration.
