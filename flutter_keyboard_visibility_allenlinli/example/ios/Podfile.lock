@@ -1,15 +1,21 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_keyboard_visibility_allenlinli (0.1.7):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_keyboard_visibility_allenlinli (from `.symlinks/plugins/flutter_keyboard_visibility_allenlinli/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_keyboard_visibility_allenlinli:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility_allenlinli/ios"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_keyboard_visibility_allenlinli: ded153c1d4e3f91868c89518f81924fba3598c7d
 
 PODFILE CHECKSUM: 1a782344d33c12ced0182eeab11e8668d253eb48
 

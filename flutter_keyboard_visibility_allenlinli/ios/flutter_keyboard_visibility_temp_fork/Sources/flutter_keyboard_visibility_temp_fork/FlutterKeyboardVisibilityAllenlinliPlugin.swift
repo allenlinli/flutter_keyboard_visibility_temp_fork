@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class FlutterKeyboardVisibilityTempForkPlugin: NSObject, FlutterPlugin, FlutterStreamHandler {
+public class FlutterKeyboardVisibilityAllenlinliPlugin: NSObject, FlutterPlugin, FlutterStreamHandler {
     
     private var eventSink: FlutterEventSink?
     private var isVisible: Bool = false
@@ -9,7 +9,7 @@ public class FlutterKeyboardVisibilityTempForkPlugin: NSObject, FlutterPlugin, F
     
     public static func register(with registrar: FlutterPluginRegistrar) {
         let eventChannel = FlutterEventChannel(name: "flutter_keyboard_visibility", binaryMessenger: registrar.messenger())
-        let instance = FlutterKeyboardVisibilityTempForkPlugin()
+        let instance = FlutterKeyboardVisibilityAllenlinliPlugin()
         eventChannel.setStreamHandler(instance)
     }
     
