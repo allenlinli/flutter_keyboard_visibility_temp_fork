@@ -1,11 +1,11 @@
 name: flutter_keyboard_visibility_web
 description: A fork of flutter_keyboard_visibility_web that's compatible with Flutter/WASM and flutter_keyboard_visibility
-version: 0.1.8
+version: 2.0.0
 homepage: https://github.com/MisterJimson/flutter_keyboard_visibility
 repository: https://github.com/MisterJimson/flutter_keyboard_visibility
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: '>=2.12.0 <4.0.0'
   flutter: ">=1.20.0"
 
 flutter:
@@ -13,7 +13,7 @@ flutter:
     implements: flutter_keyboard_visibility
     platforms:
       web:
-        pluginClass: FlutterKeyboardVisibilityAllenlinliWeb
+        pluginClass: FlutterKeyboardVisibilityPluginWeb
         fileName: flutter_keyboard_visibility_web.dart
 
 dependencies:
