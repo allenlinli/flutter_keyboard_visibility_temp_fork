@@ -1,3 +1,12 @@
+## [0.2.0] - June 9, 2025
+
+- Fixes iOS plugin class naming mismatch that caused build failures.
+- Renamed Swift class from `FlutterKeyboardVisibilityTempForkPlugin` to `FlutterKeyboardVisibilityAllenlinliPlugin` to match pubspec.yaml configuration.
+- Updated iOS podspec configuration and file naming for consistency.
+- Upgraded Android Kotlin version to 1.9.22 to support JVM target 21.
+- Fixed web plugin class name alignment in pubspec.yaml.
+- Comprehensive cross-platform testing and verification completed.
+
 ## [0.1.7] - June 2, 2025
 
 - Upgrades dependencies to the latest compatible versions.
