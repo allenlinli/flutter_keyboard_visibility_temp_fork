@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_keyboard_visibility_allenlinli'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'flutter_keyboard_visibility_allenlinli'
   s.description      = <<-DESC
 A temporary fork of the flutter_keyboard_visibility plugin
