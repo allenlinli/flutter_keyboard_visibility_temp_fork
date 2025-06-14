@@ -2,7 +2,7 @@ group 'com.jrai.flutter_keyboard_visibility_temp_fork'
 version '1.0'
 
 buildscript {
-    ext.kotlin_version = "1.8.22"
+    ext.kotlin_version = "2.0.21"
     repositories {
         google()
         mavenCentral()
