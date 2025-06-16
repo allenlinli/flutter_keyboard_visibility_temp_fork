@@ -1,26 +1,42 @@
-# Flutter Keyboard Visibility Temp Fork
+# Flutter Keyboard Visibility Web AllenLinli
 
-A fork of [flutter_keyboard_visibility_web](https://pub.dev/packages/flutter_keyboard_visibility_web) that's compatible with Flutter/WASM and [flutter_keyboard_visibility](https://pub.dev/packages/flutter_keyboard_visibility). This package is not used by [flutter_keyboard_visibility_temp_fork](https://pub.dev/packages/flutter_keyboard_visibility_temp_fork).
+A fork of [flutter_keyboard_visibility_web](https://pub.dev/packages/flutter_keyboard_visibility_web) that's compatible with Flutter/WASM and [flutter_keyboard_visibility](https://pub.dev/packages/flutter_keyboard_visibility). This package provides web support for [flutter_keyboard_visibility_allenlinli](https://pub.dev/packages/flutter_keyboard_visibility_allenlinli).
 
-This is a temporary unofficial fork of [flutter_keyboard_visibility_web](https://pub.dev/packages/flutter_keyboard_visibility_web). Will be maintained for a short while once we find a replacement.
+This is a renamed fork of flutter_keyboard_visibility_web with updated dependencies and modern linting support.
 
-We don't recommend using this package as a dependency in packages published to [pub.dev](https://pub.dev/) as it's very likely to be break after a short while, however, if you're developing an app, this might be a temporary replacement if you want to build with [Flutter WebAssembly](https://docs.flutter.dev/platform-integration/web/wasm).
+## Usage
 
-Unlike [flutter_keyboard_visibility_temp_fork](https://pub.dev/packages/flutter_keyboard_visibility_temp_fork), this is unpublished and made compatible with `flutter_keyboard_visibility`. If you're using dependencies that use `flutter_keyboard_visibility` as a transitive dependency, and you're unable to build with WASM, you can override the [flutter_keyboard_web](https://pub.dev/packages/flutter_keyboard_web) with this modified version:
+Add this to your package's pubspec.yaml file:
+
+```yaml
+dependencies:
+  flutter_keyboard_visibility_web_allenlinli: ^2.0.1
+```
+
+## Flutter/WASM Compatibility
+
+This package is compatible with Flutter WebAssembly (WASM) compilation. If you're using dependencies that rely on the original `flutter_keyboard_visibility_web` and experiencing WASM build issues, you can override it:
 
 ```yaml
 dependency_overrides:
-  # The flutter_keyboard_visibility_web uses dart:html which is incompatible with WASM, override it with a modified version that uses the web package instead.
+  # Override with WASM-compatible version
   flutter_keyboard_visibility_web:
     git:
-      url: https://github.com/EchoEllet/flutter_keyboard_visibility_temp_fork.git
-      ref: master
+      url: https://github.com/allenlinli/flutter_keyboard_visibility_temp_fork.git
+      ref: main
       path: flutter_keyboard_visibility_web
 ```
 
-This package is compatible with `flutter_keyboard_visibility` since it holds the same name as `flutter_keyboard_visibility_web`, both are published packages and we're unable to publish this package.
+## Features
 
-> [!NOTE]
-> The web implementation of `flutter_keyboard_visibility_temp_fork` is bundled within the same package. You only need this package if you're using a dependency that uses `flutter_keyboard_visibility_web` and you're unable to build with **Flutter/WASM**.
+- ✅ Flutter/WASM compatible
+- ✅ Updated dependencies (lints 5.0.0)
+- ✅ Modern Dart SDK support (>=3.0.0)
+- ✅ Zero static analysis issues
 
-See [flutter_keyboard_visibility_temp_fork #3](https://github.com/EchoEllet/flutter_keyboard_visibility_temp_fork/pull/3) and [flutter_keyboard_visibility #155](https://github.com/MisterJimson/flutter_keyboard_visibility/pull/155) for more details.
+## Related Packages
+
+- [flutter_keyboard_visibility_allenlinli](https://pub.dev/packages/flutter_keyboard_visibility_allenlinli) - Main plugin with comprehensive platform support
+- [flutter_keyboard_visibility](https://pub.dev/packages/flutter_keyboard_visibility) - Original plugin
+
+See the [GitHub repository](https://github.com/allenlinli/flutter_keyboard_visibility_temp_fork) for more details.
