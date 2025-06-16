@@ -1,3 +1,24 @@
+## [0.3.0] - January 21, 2025
+
+- **Major dependency updates across all platforms:**
+  - **Android**: Updated Gradle Plugin from 8.3.1 to 8.7.2 (latest stable)
+  - **Android**: Updated Kotlin from 2.0.21 to 2.1.0 (latest version)
+  - **Android**: Updated CompileSDK from 34 to 35 (latest Android API)
+  - **Android**: Fixed MinSDK conflict by removing duplicate definition (now consistently 21)
+  - **Android**: Updated Mockito testing framework from 5.0.0 to 5.14.2
+  - **Dart**: Replaced deprecated `pedantic` with modern `lints` package (5.0.0)
+  - **Dart**: Updated build_runner from 2.1.7 to 2.4.13 for code generation
+  - **Dart**: Updated mockito from 5.0.17 to 5.4.4 for testing
+  - **Web**: Updated lints from 4.0.0 to 5.0.0 (latest linting package)
+- **Configuration improvements:**
+  - Updated analysis_options.yaml to use modern lints/recommended.yaml
+  - Configured linter rules for generated code and test files
+  - Excluded auto-generated mock files from static analysis
+- **Quality assurance:**
+  - All tests passing (9/9 test cases)
+  - Zero static analysis issues
+  - Dependencies resolved successfully across all platforms
+
 ## [0.2.0] - June 9, 2025
 
 - Fixes iOS plugin class naming mismatch that caused build failures.
