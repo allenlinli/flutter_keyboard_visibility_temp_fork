@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_keyboard_visibility_allenlinli (0.1.8):
+  - flutter_keyboard_visibility_allenlinli (0.3.0):
     - Flutter
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_keyboard_visibility_allenlinli: c2fc0215f20824b2d4e55f3ede39c3106f9b76c0
+  flutter_keyboard_visibility_allenlinli: 9ceae5578290b6753d75f25ce1f96a6be8fd40a2
 
 PODFILE CHECKSUM: 1a782344d33c12ced0182eeab11e8668d253eb48
 

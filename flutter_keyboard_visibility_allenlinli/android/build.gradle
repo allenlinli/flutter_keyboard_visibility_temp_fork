@@ -2,14 +2,14 @@ group 'com.jrai.flutter_keyboard_visibility_temp_fork'
 version '1.0'
 
 buildscript {
-    ext.kotlin_version = "1.8.22"
+    ext.kotlin_version = "2.1.0"
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:8.3.1")
+        classpath("com.android.tools.build:gradle:8.7.2")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
     }
 }
@@ -29,10 +29,10 @@ android {
         namespace 'com.jrai.flutter_keyboard_visibility_temp_fork'
     }
 
-    compileSdkVersion 34
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
     }
 
     lint {
@@ -53,13 +53,9 @@ android {
         test.java.srcDirs += "src/test/kotlin"
     }
 
-    defaultConfig {
-        minSdk = 21
-    }
-
     dependencies {
         testImplementation("org.jetbrains.kotlin:kotlin-test")
-        testImplementation("org.mockito:mockito-core:5.0.0")
+        testImplementation("org.mockito:mockito-core:5.14.2")
     }
 
     testOptions {
